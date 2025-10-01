@@ -1,0 +1,23 @@
+{
+  "name": "projeto-haburguer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./estilos/style.css -o ./estilos/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Fragata/projeto-haburguer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Fragata/projeto-haburguer/issues"
+  },
+  "homepage": "https://github.com/M-Fragata/projeto-haburguer#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.18"
+  }
+}
