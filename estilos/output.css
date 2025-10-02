@@ -744,6 +744,18 @@ video {
   margin-top: 2.25rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2036,6 +2048,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2664,6 +2681,10 @@ body{
 @media (min-width: 768px) {
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:gap-14 {
+    gap: 3.5rem;
   }
 
   .md\:text-3xl {
